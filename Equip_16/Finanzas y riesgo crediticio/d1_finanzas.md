@@ -1,6 +1,6 @@
 # Transformación de datos para Finanzas y Riesgo Crediticio
 
-## Dataset original (todas las columnas)
+## Columnas seleccionadas para el analisis de finanzas y riesgo crediticio
 
 - id
 - age
