@@ -42,4 +42,3 @@
   - `>1.708` → "Alto" (clientes financieramente sólidos)
 - **Consideraciones importantes:**
   - La media (1.528) > mediana (550) debido a valores extremos; por eso se usan percentiles
-  - Permite clasificar clientes de forma más representativa del comportamiento financiero
