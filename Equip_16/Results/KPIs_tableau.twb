@@ -1,0 +1,1016 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='dataset_16.09' inline='true' name='federated.0l8qdq90i2ojhe1e8l4841byours' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset_16.09' name='textscan.1333zmy1iyr58n184osrw0fgphsg'>
+            <connection class='textscan' directory='/Users/barbarajunqueira/ProjecteData/Equip_16/Data' filename='dataset_16.09.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1333zmy1iyr58n184osrw0fgphsg' name='dataset_16.09.csv' table='[dataset_16.09#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='job' ordinal='2' />
+            <column datatype='string' name='marital' ordinal='3' />
+            <column datatype='string' name='education' ordinal='4' />
+            <column datatype='string' name='default' ordinal='5' />
+            <column datatype='integer' name='balance' ordinal='6' />
+            <column datatype='string' name='housing' ordinal='7' />
+            <column datatype='string' name='loan' ordinal='8' />
+            <column datatype='string' name='contact' ordinal='9' />
+            <column datatype='integer' name='day' ordinal='10' />
+            <column datatype='string' name='month' ordinal='11' />
+            <column datatype='integer' name='duration' ordinal='12' />
+            <column datatype='integer' name='campaign' ordinal='13' />
+            <column datatype='integer' name='pdays' ordinal='14' />
+            <column datatype='integer' name='previous' ordinal='15' />
+            <column datatype='string' name='poutcome' ordinal='16' />
+            <column datatype='string' name='deposit' ordinal='17' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>job</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marital]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>marital</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>default</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[default]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>default</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balance]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>balance</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>housing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[housing]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>housing</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loan]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>loan</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contact]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>contact</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>campaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[campaign]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>campaign</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pdays]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>pdays</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>previous</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poutcome</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[poutcome]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>poutcome</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deposit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[deposit]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>deposit</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Promedio de Duración de Llamadas de Suscriptores' datatype='string' datatype-customized='true' name='[Calculation_2757610405387538432]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='RIGHT(&quot;00&quot; + STR(INT([Calculation_2757610405388251137] / 60)), 2)&#10;+ &quot;:&quot; +&#10;RIGHT(&quot;00&quot; + STR(INT([Calculation_2757610405388251137] % 60)), 2)' />
+      </column>
+      <column caption='RAW Promedio de Duración de Llamadas de Suscriptores' datatype='real' name='[Calculation_2757610405388251137]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([duration]) / &#10;COUNTD(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+      </column>
+      <column caption='Mes con Mayor Tasa de Conversión' datatype='string' name='[Calculation_2757610405388832770]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2757610405395341326] = [Calculation_2757610405395496975] THEN&#10;    [month] + &quot;: &quot; + STR(ROUND([Calculation_2757610405395341326] * 100, 2)) + &quot;%&quot;&#10;ELSE&#10;    NULL&#10;END' />
+      </column>
+      <column caption='Porcentaje de Conversión' datatype='real' name='[Calculation_2757610405389193219]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END&#10;) / &#10;SUM(&#10;    IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='Porcentaje de Conversión Vs Semana Previa' datatype='string' name='[Calculation_2757610405389475844]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_2757610405395906577]) THEN STR(&quot;-&quot;)&#10;ELSE STR([Calculation_2757610405395750928] - [Calculation_2757610405395906577])&#10;END' />
+      </column>
+      <column caption='Porcentaje de Llamadas a Teléfono o móvil' datatype='real' default-format='p0.00%' name='[Calculation_2757610405389815813]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(&#10;    IF [contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot; THEN [contact] END&#10;)&#10;/&#10;COUNT([contact])' />
+      </column>
+      <column caption='Porcetaje de LLamadas a Teléfono o Móvil Vs Semana Previ' datatype='string' name='[Calculation_2757610405390016518]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    COUNT(&#10;        IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;        AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;        THEN [contact] &#10;        END&#10;    )&#10;    / &#10;    COUNT(&#10;        IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;        THEN [contact] &#10;        END&#10;    )&#10;)&#10;THEN &quot;-&quot;&#10;ELSE&#10;STR(&#10;    (&#10;        COUNT(&#10;            IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;            AND [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } &#10;            THEN [contact] &#10;            END&#10;        )&#10;        / &#10;        COUNT(&#10;            IF [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } &#10;            THEN [contact] &#10;            END&#10;        )&#10;    )&#10;    -&#10;    (&#10;        COUNT(&#10;            IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;            AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;            THEN [contact] &#10;            END&#10;        )&#10;        / &#10;        COUNT(&#10;            IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;            THEN [contact] &#10;            END&#10;        )&#10;    )&#10;)&#10;END' />
+      </column>
+      <column caption='Promedio de Contactos Previos de Suscriptores' datatype='real' default-format='n#,##0;-#,##0' name='[Calculation_2757610405390733319]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([previous])/COUNT(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+      </column>
+      <column caption='Promedio de Contactos Previos de Suscriptores Vs Semana Previa' datatype='string' name='[Calculation_2757610405390860296]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    SUM(&#10;        IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [previous] END&#10;    ) &#10;    / &#10;    COUNT(&#10;        IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [id] END&#10;    )&#10;)&#10;THEN &quot;-&quot;&#10;ELSE&#10;STR(&#10;    (&#10;        SUM(&#10;            IF [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } THEN [previous] END&#10;        ) &#10;        / &#10;        COUNT(&#10;            IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } THEN [id] END&#10;        )&#10;    )&#10;    -&#10;    (&#10;        SUM(&#10;            IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [previous] END&#10;        ) &#10;        / &#10;        COUNT(&#10;            IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [id] END&#10;        )&#10;    )&#10;)&#10;END' />
+      </column>
+      <column caption='RAW Promedio de Duración de Llamadas de Suscriptores Vs Semana Previa' datatype='real' name='[Calculation_2757610405391208457]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN [Calculation_2757610405392654349] END, 0)&#10;)&#10;THEN NULL&#10;ELSE&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN [Calculation_2757610405392654349] END, 0&#10;    )&#10;    -&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN [Calculation_2757610405392654349] END, 0&#10;    )&#10;END' />
+      </column>
+      <column caption='Semana' datatype='integer' name='[Calculation_2757610405391675402]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [id] &lt;= 11162 THEN 1 ELSE 2 END' />
+      </column>
+      <column caption='Semana Actual' datatype='integer' name='[Calculation_2757610405392359435]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405391675402]) }' />
+      </column>
+      <column caption='Semana Previa' datatype='integer' name='[Calculation_2757610405392384012]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2757610405392359435] - 1' />
+      </column>
+      <column caption='Avg Duracion Semana' datatype='real' name='[Calculation_2757610405392654349]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Calculation_2757610405391675402] : SUM([Calculation_2757610405388251137]) } &#10;/&#10;{ FIXED [Calculation_2757610405391675402] : COUNT([Calculation_2757610405388251137]) }' />
+      </column>
+      <column caption='TasaConversionPorMes' datatype='real' name='[Calculation_2757610405395341326]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [month] : &#10;    SUM(IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END) / &#10;    SUM(IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END)&#10;}' />
+      </column>
+      <column caption='MaxTasaConversion' datatype='real' default-format='p0.00%' name='[Calculation_2757610405395496975]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405395341326]) }' />
+      </column>
+      <column caption='Porcentaje de Conversión Semana Actual' datatype='real' name='[Calculation_2757610405395750928]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN 1 ELSE 0 END&#10;) &#10;/ &#10;SUM(&#10;    IF ([campaign] &gt; 0 OR [previous] &gt; 0) AND [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='Porcentaje de Conversión Semana Previa' datatype='real' name='[Calculation_2757610405395906577]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN 1 ELSE 0 END&#10;) &#10;/ &#10;SUM(&#10;    IF ([campaign] &gt; 0 OR [previous] &gt; 0) AND [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='dataset_16.09.csv' datatype='table' name='[__tableau_internal_object_id__].[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Balance' datatype='integer' name='[balance]' role='measure' type='quantitative' />
+      <column caption='Campaign' datatype='integer' name='[campaign]' role='measure' type='quantitative' />
+      <column caption='Contact' datatype='string' name='[contact]' role='dimension' type='nominal' />
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Default' datatype='string' name='[default]' role='dimension' type='nominal' />
+      <column caption='Deposit' datatype='string' name='[deposit]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='integer' name='[duration]' role='measure' type='quantitative' />
+      <column caption='Education' datatype='string' name='[education]' role='dimension' type='nominal' />
+      <column caption='Housing' datatype='string' name='[housing]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Job' datatype='string' name='[job]' role='dimension' type='nominal' />
+      <column caption='Loan' datatype='string' name='[loan]' role='dimension' type='nominal' />
+      <column caption='Marital' datatype='string' name='[marital]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Pdays' datatype='integer' name='[pdays]' role='measure' type='quantitative' />
+      <column caption='Poutcome' datatype='string' name='[poutcome]' role='dimension' type='nominal' />
+      <column caption='Previous' datatype='integer' name='[previous]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/y0/7f28l5651dd29dl8fv5rq_nw0000gn/T/tableau-temp/#TableauTemp_1ezakzj04tst1z1gdp4ju1xbmf55.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/29/2025 05:59:28 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11162</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>job</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>marital</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[marital]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>marital</remote-alias>
+              <ordinal>3</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>education</remote-alias>
+              <ordinal>4</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>default</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[default]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>default</remote-alias>
+              <ordinal>5</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>balance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[balance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>balance</remote-alias>
+              <ordinal>6</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2625</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>housing</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[housing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>housing</remote-alias>
+              <ordinal>7</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>loan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[loan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>loan</remote-alias>
+              <ordinal>8</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contact</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contact</remote-alias>
+              <ordinal>9</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>day</remote-alias>
+              <ordinal>10</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>11</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>duration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[duration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>duration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1305</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>campaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[campaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>campaign</remote-alias>
+              <ordinal>13</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pdays</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pdays]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pdays</remote-alias>
+              <ordinal>14</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>412</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>previous</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[previous]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>previous</remote-alias>
+              <ordinal>15</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>poutcome</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[poutcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>poutcome</remote-alias>
+              <ordinal>16</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>deposit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[deposit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>deposit</remote-alias>
+              <ordinal>17</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='dataset_16.09.csv' id='dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C'>
+            <properties context=''>
+              <relation connection='textscan.1333zmy1iyr58n184osrw0fgphsg' name='dataset_16.09.csv' table='[dataset_16.09#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='string' name='job' ordinal='2' />
+                  <column datatype='string' name='marital' ordinal='3' />
+                  <column datatype='string' name='education' ordinal='4' />
+                  <column datatype='string' name='default' ordinal='5' />
+                  <column datatype='integer' name='balance' ordinal='6' />
+                  <column datatype='string' name='housing' ordinal='7' />
+                  <column datatype='string' name='loan' ordinal='8' />
+                  <column datatype='string' name='contact' ordinal='9' />
+                  <column datatype='integer' name='day' ordinal='10' />
+                  <column datatype='string' name='month' ordinal='11' />
+                  <column datatype='integer' name='duration' ordinal='12' />
+                  <column datatype='integer' name='campaign' ordinal='13' />
+                  <column datatype='integer' name='pdays' ordinal='14' />
+                  <column datatype='integer' name='previous' ordinal='15' />
+                  <column datatype='string' name='poutcome' ordinal='16' />
+                  <column datatype='string' name='deposit' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_16.09' name='federated.0l8qdq90i2ojhe1e8l4841byours' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l8qdq90i2ojhe1e8l4841byours'>
+            <column caption='Porcentaje de Llamadas a Teléfono o móvil' datatype='real' default-format='p0.00%' name='[Calculation_2757610405389815813]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(&#10;    IF [contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot; THEN [contact] END&#10;)&#10;/&#10;COUNT([contact])' />
+            </column>
+            <column caption='Promedio de Contactos Previos de Suscriptores' datatype='real' default-format='n#,##0;-#,##0' name='[Calculation_2757610405390733319]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([previous])/COUNT(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+            </column>
+            <column caption='TasaConversionPorMes' datatype='real' name='[Calculation_2757610405395341326]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [month] : &#10;    SUM(IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END) / &#10;    SUM(IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END)&#10;}' />
+            </column>
+            <column caption='MaxTasaConversion' datatype='real' default-format='p0.00%' name='[Calculation_2757610405395496975]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405395341326]) }' />
+            </column>
+            <column caption='Campaign' datatype='integer' name='[campaign]' role='measure' type='quantitative' />
+            <column caption='Contact' datatype='string' name='[contact]' role='dimension' type='nominal' />
+            <column caption='Deposit' datatype='string' name='[deposit]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+            <column caption='Previous' datatype='integer' name='[previous]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2757610405395496975]' derivation='Sum' name='[sum:Calculation_2757610405395496975:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2757610405389815813]' derivation='User' name='[usr:Calculation_2757610405389815813:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2757610405390733319]' derivation='User' name='[usr:Calculation_2757610405390733319:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405389815813:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[sum:Calculation_2757610405395496975:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405390733319:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405389815813:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[sum:Calculation_2757610405395496975:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405390733319:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]' value='187' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0l8qdq90i2ojhe1e8l4841byours].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{BCA14ED3-6050-4905-8E98-227B8F134A10}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]</field>
+            <field>[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405387538432:nk]</field>
+            <field>[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405390016518:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A2E42441-0182-40E7-8D0A-C11FF138EC4F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='128' name='Sheet 1' width='384'>
+      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
+      iUM7bdy4cdy5c0fv/bS0NE6cOFHMWsO0adP0vn9aWVlZnDp1ikuXLrFr1y69oaP3799n1KhR
+      Br8tjUZDXFwc3377Lfb29nz00UfF1lveurUkAbwE8vLyuH37NlB4JKKVm5vLvHnz1J3/4MGD
+      eeeddygoKOCf//wne/bsIT09nXnz5rF161ajRzs5OTlMnDhR/QLZ2dlRt25doPCLOGvWLPUL
+      2rZtWwIDA3FzcyMqKorQ0FC9ZW3dulXdIfbs2ZNx48bh5OTEyZMn+dvf/kZ2djZLly7lhx9+
+      MLqemZmZODo60rFjR5o1a0Zubi7btm3jzp07pKenc/HiRTp27Ej37t1p3LgxZ8+e5fjx40Dh
+      GYDutnnllVf0lm1tbU2HDh1o06YNnp6eVKpUiQsXLrB27VqysrL44Ycf+OCDD0rd3FTRddW6
+      cuWKuvO3sLAgMDCQ5s2bU6NGDW7evMn27dvVkUi6Hj16REhICPn5+VSrVo0vv/yS119/nbS0
+      NObPn8+pU6c4ffo0J06coEOHDqVaJ1Op6Lb28fHhzTffxMfHhytXrrBz507i4uKwt7enY8eO
+      +Pn5oSgKW7duJT4+nvT0dMLDw3nzzTcrHEdISIi68/fw8GDgwIHUqlWLnJwcjh07xuHDh4td
+      77p169KjRw98fX2pXbs2qamp6tlsZmYm69at4y9/+Yta/scff1R/W507d6ZHjx7Url2b27dv
+      c+HCBYPfV0nKWre6jUpdg3guNBoNy5YtIysrC4A2bdqo03bs2KHuHIKCgvSOFPz8/LC3t2fL
+      li3cunWLAwcO0KtXL4Plr1u3jry8PKpUqcKECRPo1auXOvJlz5496vDU3r17M2PGDPVoskmT
+      JvTq1UtNPllZWXz//fcANGjQgNmzZ6t1dO7cmbi4OFatWsXNmzcJCwvTazbS6tu3L59//rne
+      cM4aNWowffp0APXsJyAggICAAKysrNQE0K1bt2JHAXXq1IlOnToZXE/RpEkTEhMT2bZtGwUF
+      BURERJQqAZhiXbUWL16sHtV+9dVXdOzYUZ3WunVrbt26pdccp7Vt2zYePnwIwPTp02nbti0A
+      bm5uhISE0KVLFzXOZ5kAKrqtR4wYwdixY9X/u3fvzqVLl0hOTuann37Sa793dHRU+8ZSU1Mr
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
