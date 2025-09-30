@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='dataset_16.09' inline='true' name='federated.0l8qdq90i2ojhe1e8l4841byours' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset_16.09' name='textscan.1333zmy1iyr58n184osrw0fgphsg'>
+            <connection class='textscan' directory='/Users/barbarajunqueira/ProjecteData/Equip_16/Data' filename='dataset_16.09.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1333zmy1iyr58n184osrw0fgphsg' name='dataset_16.09.csv' table='[dataset_16.09#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='job' ordinal='2' />
+            <column datatype='string' name='marital' ordinal='3' />
+            <column datatype='string' name='education' ordinal='4' />
+            <column datatype='string' name='default' ordinal='5' />
+            <column datatype='integer' name='balance' ordinal='6' />
+            <column datatype='string' name='housing' ordinal='7' />
+            <column datatype='string' name='loan' ordinal='8' />
+            <column datatype='string' name='contact' ordinal='9' />
+            <column datatype='integer' name='day' ordinal='10' />
+            <column datatype='string' name='month' ordinal='11' />
+            <column datatype='integer' name='duration' ordinal='12' />
+            <column datatype='integer' name='campaign' ordinal='13' />
+            <column datatype='integer' name='pdays' ordinal='14' />
+            <column datatype='integer' name='previous' ordinal='15' />
+            <column datatype='string' name='poutcome' ordinal='16' />
+            <column datatype='string' name='deposit' ordinal='17' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>job</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marital]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>marital</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>default</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[default]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>default</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balance]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>balance</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>housing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[housing]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>housing</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loan]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>loan</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contact]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>contact</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>campaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[campaign]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>campaign</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pdays]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>pdays</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>previous</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poutcome</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[poutcome]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>poutcome</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deposit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[deposit]</local-name>
+            <parent-name>[dataset_16.09.csv]</parent-name>
+            <remote-alias>deposit</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Promedio de Duración de Llamadas de Suscriptores' datatype='string' datatype-customized='true' name='[Calculation_2757610405387538432]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='RIGHT(&quot;00&quot; + STR(INT([Calculation_2757610405388251137] / 60)), 2)&#10;+ &quot;:&quot; +&#10;RIGHT(&quot;00&quot; + STR(INT([Calculation_2757610405388251137] % 60)), 2)' />
+      </column>
+      <column caption='RAW Promedio de Duración de Llamadas de Suscriptores' datatype='real' name='[Calculation_2757610405388251137]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([duration]) / &#10;COUNTD(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+      </column>
+      <column caption='Mes con Mayor Tasa de Conversión' datatype='string' name='[Calculation_2757610405388832770]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2757610405395341326] = [Calculation_2757610405395496975] THEN&#10;    [month] + &quot;: &quot; + STR(ROUND([Calculation_2757610405395341326] * 100, 2)) + &quot;%&quot;&#10;ELSE&#10;    NULL&#10;END' />
+      </column>
+      <column caption='Porcentaje de Conversión' datatype='real' name='[Calculation_2757610405389193219]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END&#10;) / &#10;SUM(&#10;    IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='Porcentaje de Conversión Vs Semana Previa' datatype='string' name='[Calculation_2757610405389475844]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_2757610405395906577]) THEN STR(&quot;-&quot;)&#10;ELSE STR([Calculation_2757610405395750928] - [Calculation_2757610405395906577])&#10;END' />
+      </column>
+      <column caption='Porcentaje de Llamadas a Teléfono o móvil' datatype='real' default-format='p0.00%' name='[Calculation_2757610405389815813]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(&#10;    IF [contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot; THEN [contact] END&#10;)&#10;/&#10;COUNT([contact])' />
+      </column>
+      <column caption='Porcetaje de LLamadas a Teléfono o Móvil Vs Semana Previ' datatype='string' name='[Calculation_2757610405390016518]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    COUNT(&#10;        IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;        AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;        THEN [contact] &#10;        END&#10;    )&#10;    / &#10;    COUNT(&#10;        IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;        THEN [contact] &#10;        END&#10;    )&#10;)&#10;THEN &quot;-&quot;&#10;ELSE&#10;STR(&#10;    (&#10;        COUNT(&#10;            IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;            AND [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } &#10;            THEN [contact] &#10;            END&#10;        )&#10;        / &#10;        COUNT(&#10;            IF [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } &#10;            THEN [contact] &#10;            END&#10;        )&#10;    )&#10;    -&#10;    (&#10;        COUNT(&#10;            IF ([contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot;) &#10;            AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;            THEN [contact] &#10;            END&#10;        )&#10;        / &#10;        COUNT(&#10;            IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) &#10;            THEN [contact] &#10;            END&#10;        )&#10;    )&#10;)&#10;END' />
+      </column>
+      <column caption='Promedio de Contactos Previos de Suscriptores' datatype='real' default-format='n#,##0;-#,##0' name='[Calculation_2757610405390733319]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([previous])/COUNT(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+      </column>
+      <column caption='Promedio de Contactos Previos de Suscriptores Vs Semana Previa' datatype='string' name='[Calculation_2757610405390860296]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    SUM(&#10;        IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [previous] END&#10;    ) &#10;    / &#10;    COUNT(&#10;        IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [id] END&#10;    )&#10;)&#10;THEN &quot;-&quot;&#10;ELSE&#10;STR(&#10;    (&#10;        SUM(&#10;            IF [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } THEN [previous] END&#10;        ) &#10;        / &#10;        COUNT(&#10;            IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = { FIXED : MAX([Calculation_2757610405391675402]) } THEN [id] END&#10;        )&#10;    )&#10;    -&#10;    (&#10;        SUM(&#10;            IF [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [previous] END&#10;        ) &#10;        / &#10;        COUNT(&#10;            IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = ({ FIXED : MAX([Calculation_2757610405391675402]) } - 1) THEN [id] END&#10;        )&#10;    )&#10;)&#10;END' />
+      </column>
+      <column caption='RAW Promedio de Duración de Llamadas de Suscriptores Vs Semana Previa' datatype='real' name='[Calculation_2757610405391208457]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF ISNULL(&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN [Calculation_2757610405392654349] END, 0)&#10;)&#10;THEN NULL&#10;ELSE&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN [Calculation_2757610405392654349] END, 0&#10;    )&#10;    -&#10;    LOOKUP(&#10;        IF [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN [Calculation_2757610405392654349] END, 0&#10;    )&#10;END' />
+      </column>
+      <column caption='Semana' datatype='integer' name='[Calculation_2757610405391675402]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [id] &lt;= 11162 THEN 1 ELSE 2 END' />
+      </column>
+      <column caption='Semana Actual' datatype='integer' name='[Calculation_2757610405392359435]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405391675402]) }' />
+      </column>
+      <column caption='Semana Previa' datatype='integer' name='[Calculation_2757610405392384012]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2757610405392359435] - 1' />
+      </column>
+      <column caption='Avg Duracion Semana' datatype='real' name='[Calculation_2757610405392654349]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Calculation_2757610405391675402] : SUM([Calculation_2757610405388251137]) } &#10;/&#10;{ FIXED [Calculation_2757610405391675402] : COUNT([Calculation_2757610405388251137]) }' />
+      </column>
+      <column caption='TasaConversionPorMes' datatype='real' name='[Calculation_2757610405395341326]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [month] : &#10;    SUM(IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END) / &#10;    SUM(IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END)&#10;}' />
+      </column>
+      <column caption='MaxTasaConversion' datatype='real' default-format='p0.00%' name='[Calculation_2757610405395496975]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405395341326]) }' />
+      </column>
+      <column caption='Porcentaje de Conversión Semana Actual' datatype='real' name='[Calculation_2757610405395750928]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN 1 ELSE 0 END&#10;) &#10;/ &#10;SUM(&#10;    IF ([campaign] &gt; 0 OR [previous] &gt; 0) AND [Calculation_2757610405391675402] = [Calculation_2757610405392359435] THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='Porcentaje de Conversión Semana Previa' datatype='real' name='[Calculation_2757610405395906577]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [deposit] = &quot;yes&quot; AND [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN 1 ELSE 0 END&#10;) &#10;/ &#10;SUM(&#10;    IF ([campaign] &gt; 0 OR [previous] &gt; 0) AND [Calculation_2757610405391675402] = [Calculation_2757610405392384012] THEN 1 ELSE 0 END&#10;)' />
+      </column>
+      <column caption='dataset_16.09.csv' datatype='table' name='[__tableau_internal_object_id__].[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Balance' datatype='integer' name='[balance]' role='measure' type='quantitative' />
+      <column caption='Campaign' datatype='integer' name='[campaign]' role='measure' type='quantitative' />
+      <column caption='Contact' datatype='string' name='[contact]' role='dimension' type='nominal' />
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Default' datatype='string' name='[default]' role='dimension' type='nominal' />
+      <column caption='Deposit' datatype='string' name='[deposit]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='integer' name='[duration]' role='measure' type='quantitative' />
+      <column caption='Education' datatype='string' name='[education]' role='dimension' type='nominal' />
+      <column caption='Housing' datatype='string' name='[housing]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Job' datatype='string' name='[job]' role='dimension' type='nominal' />
+      <column caption='Loan' datatype='string' name='[loan]' role='dimension' type='nominal' />
+      <column caption='Marital' datatype='string' name='[marital]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Pdays' datatype='integer' name='[pdays]' role='measure' type='quantitative' />
+      <column caption='Poutcome' datatype='string' name='[poutcome]' role='dimension' type='nominal' />
+      <column caption='Previous' datatype='integer' name='[previous]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/y0/7f28l5651dd29dl8fv5rq_nw0000gn/T/tableau-temp/#TableauTemp_1ezakzj04tst1z1gdp4ju1xbmf55.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/29/2025 05:59:28 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11162</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>job</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>marital</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[marital]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>marital</remote-alias>
+              <ordinal>3</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>education</remote-alias>
+              <ordinal>4</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>default</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[default]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>default</remote-alias>
+              <ordinal>5</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>balance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[balance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>balance</remote-alias>
+              <ordinal>6</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2625</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>housing</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[housing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>housing</remote-alias>
+              <ordinal>7</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>loan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[loan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>loan</remote-alias>
+              <ordinal>8</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>contact</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[contact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>contact</remote-alias>
+              <ordinal>9</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>day</remote-alias>
+              <ordinal>10</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>11</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>duration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[duration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>duration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1305</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>campaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[campaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>campaign</remote-alias>
+              <ordinal>13</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pdays</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pdays]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pdays</remote-alias>
+              <ordinal>14</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>412</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>previous</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[previous]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>previous</remote-alias>
+              <ordinal>15</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>poutcome</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[poutcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>poutcome</remote-alias>
+              <ordinal>16</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>deposit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[deposit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>deposit</remote-alias>
+              <ordinal>17</ordinal>
+              <family>dataset_16.09.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='dataset_16.09.csv' id='dataset_16.09.csv_D0AB7727909A4B96A472F384559AD97C'>
+            <properties context=''>
+              <relation connection='textscan.1333zmy1iyr58n184osrw0fgphsg' name='dataset_16.09.csv' table='[dataset_16.09#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='string' name='job' ordinal='2' />
+                  <column datatype='string' name='marital' ordinal='3' />
+                  <column datatype='string' name='education' ordinal='4' />
+                  <column datatype='string' name='default' ordinal='5' />
+                  <column datatype='integer' name='balance' ordinal='6' />
+                  <column datatype='string' name='housing' ordinal='7' />
+                  <column datatype='string' name='loan' ordinal='8' />
+                  <column datatype='string' name='contact' ordinal='9' />
+                  <column datatype='integer' name='day' ordinal='10' />
+                  <column datatype='string' name='month' ordinal='11' />
+                  <column datatype='integer' name='duration' ordinal='12' />
+                  <column datatype='integer' name='campaign' ordinal='13' />
+                  <column datatype='integer' name='pdays' ordinal='14' />
+                  <column datatype='integer' name='previous' ordinal='15' />
+                  <column datatype='string' name='poutcome' ordinal='16' />
+                  <column datatype='string' name='deposit' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_16.09' name='federated.0l8qdq90i2ojhe1e8l4841byours' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l8qdq90i2ojhe1e8l4841byours'>
+            <column caption='Porcentaje de Llamadas a Teléfono o móvil' datatype='real' default-format='p0.00%' name='[Calculation_2757610405389815813]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(&#10;    IF [contact] = &quot;cellular&quot; OR [contact] = &quot;telephone&quot; THEN [contact] END&#10;)&#10;/&#10;COUNT([contact])' />
+            </column>
+            <column caption='Promedio de Contactos Previos de Suscriptores' datatype='real' default-format='n#,##0;-#,##0' name='[Calculation_2757610405390733319]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([previous])/COUNT(IF [deposit] = &quot;yes&quot; THEN [id] END)' />
+            </column>
+            <column caption='TasaConversionPorMes' datatype='real' name='[Calculation_2757610405395341326]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [month] : &#10;    SUM(IF [deposit] = &quot;yes&quot; THEN 1 ELSE 0 END) / &#10;    SUM(IF [campaign] &gt; 0 OR [previous] &gt; 0 THEN 1 ELSE 0 END)&#10;}' />
+            </column>
+            <column caption='MaxTasaConversion' datatype='real' default-format='p0.00%' name='[Calculation_2757610405395496975]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : MAX([Calculation_2757610405395341326]) }' />
+            </column>
+            <column caption='Campaign' datatype='integer' name='[campaign]' role='measure' type='quantitative' />
+            <column caption='Contact' datatype='string' name='[contact]' role='dimension' type='nominal' />
+            <column caption='Deposit' datatype='string' name='[deposit]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+            <column caption='Previous' datatype='integer' name='[previous]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2757610405395496975]' derivation='Sum' name='[sum:Calculation_2757610405395496975:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2757610405389815813]' derivation='User' name='[usr:Calculation_2757610405389815813:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2757610405390733319]' derivation='User' name='[usr:Calculation_2757610405390733319:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[sum:Calculation_2757610405395496975:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405389815813:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405390733319:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405389815813:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[sum:Calculation_2757610405395496975:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0l8qdq90i2ojhe1e8l4841byours].[usr:Calculation_2757610405390733319:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]' value='187' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0l8qdq90i2ojhe1e8l4841byours].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0l8qdq90i2ojhe1e8l4841byours].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{BCA14ED3-6050-4905-8E98-227B8F134A10}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A2E42441-0182-40E7-8D0A-C11FF138EC4F}' />
+    </window>
+  </windows>
+</workbook>
