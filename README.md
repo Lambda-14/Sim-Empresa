@@ -42,4 +42,17 @@ Rols possibles:
 ### ¡TREBALLA EN EQUIP!
 -  Tota la planificació del treball la trobaràs en el tauler Kanban corresponent al projecte del **teu equip**. Per exemple: @ITACADEMYprojectes's Equip B
 
+### Components del grup
+Bárbara Junqueira           https://www.linkedin.com/in/junqueirabs/
+Carlos Moreno García        https://www.linkedin.com/in/morenogarciacarlos/
+Favila Valdés-Bango Martín  https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/
+Ingrid Tobío Pérez          https://www.linkedin.com/in/ingrid-tobio/
+Maeloc Valdés Moutinho      https://www.linkedin.com/in/maeloc-valdes/
+Pau León Ozón               https://www.linkedin.com/in/pauleonozon/
+
+
+
+
+
+
   
