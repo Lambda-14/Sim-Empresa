@@ -105,12 +105,13 @@ Itacademy_business_simulation/
 │   │   └── Summaries/            # Resúmenes y construcción del score de riesgo financiero
 │   │
 │   ├── Marketing/
+│   │   ├── Animations/           # Animaciones de visualizaciones de marketing
 │   │   ├── Diagrams/             # Diagramas y visualizaciones de marketing
+│   │   ├── Data/                 # Csv y datos originales y procesados de marketing
 │   │   ├── Notebooks/            # Notebooks de Python para análisis de marketing
 │   │   └── Pbix/                 # Dashboards en Power BI de marketing
 │   │
 │   └── Customer/
-│       ├── Animations/           # Animaciones y visualizaciones dinámicas de clientes
 │       ├── Data_processed/       # Datos procesados para análisis de clientes
 │       ├── Notebooks/            # Notebooks de Python para análisis del perfil de clientes
 │       └── Pbix/                 # Dashboards en Power BI del perfil de clientes
