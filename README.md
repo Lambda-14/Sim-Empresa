@@ -4,13 +4,13 @@ El proyecto simula un **entorno empresarial en el sector bancario**, donde el eq
 
 ## Roles del equipo
 
+- **Analista de Marketing y Comunicación**
+  - Pau León Ozón – [LinkedIn](https://www.linkedin.com/in/pauleonozon/)
+  - Carlos Moreno García – [LinkedIn](https://www.linkedin.com/in/morenogarciacarlos/)  
+
 - **Analista de Finanzas y Riesgo Crediticio**  
   - Ingrid Tobío Pérez - [LinkedIn](https://www.linkedin.com/in/ingrid-tobio/)  
   - Bárbara Junqueira –  [LinkedIn](https://www.linkedin.com/in/junqueirabs/)
-
-- **Analista de Marketing y Comunicación**  
-  - Carlos Moreno García – [LinkedIn](https://www.linkedin.com/in/morenogarciacarlos/)  
-  - Pau León Ozón – [LinkedIn](https://www.linkedin.com/in/pauleonozon/)  
 
 - **Perfil del Cliente**  
   - Favila Valdés-Bango Martín – [LinkedIn](https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/)
