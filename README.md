@@ -135,23 +135,23 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 
 # Guía de consulta rápida a carpetas mas relevantes
 
-- Abrir [`Analysis/`](./Analysis/) para revisar trabajo por área (trabajo por roles Finance, Marketing, Customer).  
-  - [`Finance/`](./Analysis/Finance/) → Análisis de finanzas y riesgo crediticio. 
-    - [`Pbix/`](./Analysis/Finance/Pbix/) → Dashboards en Power BI.   
-    - [`Notebooks/`](./Analysis/Finance/Notebooks/) → Notebooks de Python para análisis financiero.
-    - [`Summaries/`](./Analysis/Finance/Summaries/) → Construcción del **score de riesgo financiero**, aporte clave para la gestión de riesgos.      
-  - [`Marketing/`](./Analysis/Marketing/) → Análisis de marketing y comunicación. 
-    - [`Pbix/`](./Analysis/Marketing/Pbix/) → Dashboards en Power BI de marketing. 
-    - [`Notebooks/`](./Analysis/Marketing/Notebooks/) → Notebooks de análisis de marketing.  
-  - [`Customer/`](./Analysis/Customer/) → Análisis del perfil de cliente. 
-    - [`Pbix/`](./Analysis/Customer/Pbix/) → Dashboards en Power BI del perfil de clientes.  
-    - [`Notebooks/`](./Analysis/Customer/Notebooks/) → Notebooks de análisis del perfil de clientes.
+- Abrir [`Analysis/`](./Itacademy_business_simulation/Analysis/) para revisar trabajo por área (trabajo por roles Finance, Marketing, Customer).  
+  - [`Finance/`](./Itacademy_business_simulation/Analysis/Finance/) → Análisis de finanzas y riesgo crediticio. 
+    - [`Pbix/`](./Itacademy_business_simulation/Analysis/Finance/Pbix/) → Dashboards en Power BI.   
+    - [`Notebooks/`](./Itacademy_business_simulation/Analysis/Finance/Notebooks/) → Notebooks de Python para análisis financiero.
+    - [`Summaries/`](./Itacademy_business_simulation/Analysis/Finance/Summaries/) → Construcción del **score de riesgo financiero**, aporte clave para la gestión de riesgos.      
+  - [`Marketing/`](./Itacademy_business_simulation/Analysis/Marketing/) → Análisis de marketing y comunicación. 
+    - [`Pbix/`](./Itacademy_business_simulation/Analysis/Marketing/Pbix/) → Dashboards en Power BI de marketing. 
+    - [`Notebooks/`](./Itacademy_business_simulation/Analysis/Marketing/Notebooks/) → Notebooks de análisis de marketing.  
+  - [`Customer/`](./Itacademy_business_simulation/Analysis/Customer/) → Análisis del perfil de cliente. 
+    - [`Pbix/`](./Itacademy_business_simulation/Analysis/Customer/Pbix/) → Dashboards en Power BI del perfil de clientes.  
+    - [`Notebooks/`](./Itacademy_business_simulation/Analysis/Customer/Notebooks/) → Notebooks de análisis del perfil de clientes.
 
-- Explorar [`Results/`](./Results/) para KPIs y presentaciones finales (trabajo conjunto).  
-  - [`KPIs/`](./Results/KPIs/) → Indicadores clave de desempeño.  
-  - [`Presentations/`](./Results/Presentations/) → Presentaciones de resultados generales.  
-- Revisar [`Scripts/`](./Scripts/) si quieres ejecutar limpieza o transformación de datos (trabajo conjunto).
-- Consultar [`Data/`](./Data/) para ver datasets originales y procesados (trabajo conjunto de todo el equipo).
+- Explorar [`Results/`](./Itacademy_business_simulation/Results/) para KPIs y presentaciones finales (trabajo conjunto).  
+  - [`KPIs/`](./Itacademy_business_simulation/Results/KPIs/) → Indicadores clave de desempeño.  
+  - [`Presentations/`](./Itacademy_business_simulation/Results/Presentations/) → Presentaciones de resultados generales.  
+- Revisar [`Scripts/`](./Itacademy_business_simulation/Scripts/) si quieres ejecutar limpieza o transformación de datos (trabajo conjunto).
+- Consultar [`Data/`](./Itacademy_business_simulation/Data/) para ver datasets originales y procesados (trabajo conjunto de todo el equipo).
 
 ---
 
