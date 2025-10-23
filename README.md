@@ -160,7 +160,7 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 Este proyecto se distribuye bajo la licencia **MIT License**.  
 Esto permite que cualquier persona pueda usar, copiar, modificar y distribuir el proyecto, siempre citando al autor original.
 
-Para más detalles, consulta el archivo [`LICENSE`](./LICENSE) en el repositorio.
+Para más detalles, consulta el archivo [`LICENSE`](./LICENSE.txt) en el repositorio.
 
 
 
