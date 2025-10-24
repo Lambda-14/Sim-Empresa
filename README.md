@@ -116,8 +116,8 @@ Itacademy_business_simulation/
 │       ├── Notebooks/            # Notebooks de Python para análisis del perfil de clientes
 │       └── Pbix/                 # Dashboards en Power BI del perfil de clientes
 │
-├── README.md                      # Documentación general del proyecto
-└── LICENSE                        # Licencia MIT del proyecto
+├── README.md                     # Documentación general del proyecto
+└── LICENSE                       # Licencia MIT del proyecto
 ```
 ---
 
